@@ -8,7 +8,7 @@ import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   const theme = useContext(ThemeContext);

@@ -21,11 +21,11 @@ function App() {
         color: darkMode && "White",
       }}
     >
-      {/* <Header /> */}
+      <Header />
       <Toggle />
       <Routes>
         <Route
-          path="/"
+          path={process.env.PUBLIC_URL + "/"}
           element={[
             <Intro key="1" />,
             <About key="2" />,

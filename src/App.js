@@ -21,7 +21,7 @@ function App() {
         color: darkMode && "White",
       }}
     >
-      <Header />
+      {/* <Header /> */}
       <Toggle />
       <Routes>
         <Route

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-sahil/static/css/main.c67ebfda.css",
+    "main.js": "/portfolio-sahil/static/js/main.18c02f07.js",
+    "static/js/787.d501e16f.chunk.js": "/portfolio-sahil/static/js/787.d501e16f.chunk.js",
+    "static/media/developer.gif": "/portfolio-sahil/static/media/developer.2997f441ff25ecaf9d04.gif",
+    "static/media/twitter.png": "/portfolio-sahil/static/media/twitter.6a8f0ad291df8b3c63c8.png",
+    "static/media/Me.png": "/portfolio-sahil/static/media/Me.983408509a7ca30f8312.png",
+    "static/media/loc.png": "/portfolio-sahil/static/media/loc.e411b7413f25183e20fa.png",
+    "static/media/award.png": "/portfolio-sahil/static/media/award.3b57a98c238d9ca3ecfe.png",
+    "static/media/sun.png": "/portfolio-sahil/static/media/sun.26ccf107f62db7b88a44.png",
+    "static/media/phone.jpg": "/portfolio-sahil/static/media/phone.82f0cd44a6ea808db6ab.jpg",
+    "static/media/leetcode.png": "/portfolio-sahil/static/media/leetcode.c79f333b12595d3eec8f.png",
+    "static/media/email.png": "/portfolio-sahil/static/media/email.830410a192d692024e4b.png",
+    "static/media/logo2.png": "/portfolio-sahil/static/media/logo2.c53e69347c74cec71067.png",
+    "static/media/linkedIn.png": "/portfolio-sahil/static/media/linkedIn.7cdc0c2998c4f99853b2.png",
+    "static/media/moon.jpg": "/portfolio-sahil/static/media/moon.710b06a79632e525feb3.jpg",
+    "index.html": "/portfolio-sahil/index.html",
+    "main.c67ebfda.css.map": "/portfolio-sahil/static/css/main.c67ebfda.css.map",
+    "main.18c02f07.js.map": "/portfolio-sahil/static/js/main.18c02f07.js.map",
+    "787.d501e16f.chunk.js.map": "/portfolio-sahil/static/js/787.d501e16f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c67ebfda.css",
+    "static/js/main.18c02f07.js"
+  ]
+}

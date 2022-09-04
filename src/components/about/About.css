@@ -1,0 +1,151 @@
+.a {
+  height: 100vh;
+  margin-top: 10vh;
+  overflow: hidden;
+  display: flex;
+}
+.a-left {
+  flex: 1;
+}
+.a-right {
+  flex: 1;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* left  */
+.a-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* background: red; */
+  height: 100%;
+}
+.a-card.bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background: rgb(53, 186, 124);
+  /* width: 40%;
+  height: 85vh; */
+}
+.a-card {
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.a-card.for {
+  border: 2px solid black;
+}
+.a-img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  /* border-radius: 30px; */
+  /* overflow: hidden; */
+}
+/* // right side  */
+
+.a-award-img {
+  width: 150px;
+  border-radius: 10px;
+  user-select: none;
+}
+.a-title {
+  font-weight: 400;
+  font-size: 2rem;
+  transition: font-weight 0.5s linear;
+}
+.a-title:hover {
+  font-weight: 600;
+}
+.a-sub {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+#skills {
+  flex: 1;
+  position: relative;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1.2em;
+}
+#skills span {
+  font-size: 20px;
+  font-weight: 600;
+  /* text-decoration: underline; */
+  margin: 10px 0;
+}
+#skills li:before {
+  content: "🥇 ";
+  /* position: absolute; */
+  left: 0;
+}
+#skills li {
+  transition: all 0.3s linear;
+}
+#skills li:hover {
+  transform: scale(1.05);
+  font-weight: 600;
+}
+.links {
+  flex: 2;
+}
+.links div {
+  transition: transform 0.5s linear;
+}
+.links div:hover {
+  transform: scale(1.05);
+}
+.links div img {
+  width: 30px;
+  margin: 5px 11px;
+}
+.links a {
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+.links a:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+.a-desc {
+  font-weight: 300;
+}
+.a-award {
+  /* margin-top: 50px; */
+  display: flex;
+  /* align-items: center;
+  justify-content: space-between; */
+  flex-direction: column;
+}
+.a-award-texts {
+  width: 70%;
+}
+.a-award-title {
+  font-weight: bold;
+  color: #555;
+  margin: 3px 0;
+}
+.a-award-title:hover {
+  color: rgb(18, 18, 18);
+}
+
+@media screen and (max-width: 480px) {
+  .a {
+    flex-direction: column-reverse;
+    height: 200vh;
+  }
+  .a-right {
+    padding: 10px 20px;
+  }
+  .a-sub {
+    flex-direction: column;
+  }
+}

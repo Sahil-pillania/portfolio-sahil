@@ -5,6 +5,7 @@ import award from "../../Images/award.png";
 import linkedIn from "../../Images/linkedIn.png";
 import leetcode from "../../Images/leetcode.png";
 import twitter from "../../Images/twitter.png";
+import gfg from "../../Images/gfg.png";
 
 const About = () => {
   return (
@@ -46,6 +47,20 @@ const About = () => {
             <div>
               <img src={leetcode} alt="" title="LeetCode Id" />
               <a href="https://leetcode.com/Sahil_Pillania/" target="_blank">
+                Visit Leetcode
+              </a>
+            </div>
+            <div>
+              <img
+                src={gfg}
+                alt=""
+                title="geeksForGeeks Id"
+                style={{ borderRadius: "5px" }}
+              />
+              <a
+                href="https://auth.geeksforgeeks.org/user/sahil_pillania"
+                target="_blank"
+              >
                 Visit Leetcode
               </a>
             </div>

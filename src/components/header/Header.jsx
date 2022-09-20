@@ -8,7 +8,7 @@ import { ThemeContext } from "../../context";
 const Header = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
-  console.log(darkMode);
+  // console.log(darkMode);
 
   return (
     <div className="h">

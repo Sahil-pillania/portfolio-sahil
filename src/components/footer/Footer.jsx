@@ -19,9 +19,9 @@ const Footer = () => {
       }}
     >
       <div className="f-auth">Copyright &copy; Sahil Pillania</div>
-      <button onClick={topFunction} id="myBtn" title="Go to top">
+      {/* <button onClick={topFunction} id="myBtn" title="Go to top">
         Top
-      </button>
+      </button> */}
     </div>
   );
 };

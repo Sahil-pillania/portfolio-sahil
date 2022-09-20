@@ -3,9 +3,9 @@ import "./Footer.css";
 import { ThemeContext } from "../../context";
 
 const Footer = () => {
-  function topFunction() {
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  }
+  // function topFunction() {
+  //   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  // }
 
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -18,7 +18,9 @@ const Footer = () => {
         color: darkMode && "white",
       }}
     >
-      <div className="f-auth">Copyright &copy; Sahil Pillania</div>
+      <div className="f-auth">
+        Copyright &copy; Sahil Pillania 2021-{new Date().getFullYear()}
+      </div>
       {/* <button onClick={topFunction} id="myBtn" title="Go to top">
         Top
       </button> */}

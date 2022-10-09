@@ -61,7 +61,7 @@ const About = () => {
                 href="https://auth.geeksforgeeks.org/user/sahil_pillania"
                 target="_blank"
               >
-                Visit Leetcode
+                Visit geeksForGeeks
               </a>
             </div>
           </div>

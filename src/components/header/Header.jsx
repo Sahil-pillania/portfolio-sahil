@@ -13,11 +13,13 @@ const Header = () => {
   return (
     <div className="h">
       <nav
-        className="navbar navbar-expand-lg "
-        style={{
-          backgroundColor: darkMode ? "black !important" : "white",
-          color: darkMode ? "white !important" : "black !important",
-        }}
+        className={`navbar navbar-expand-lg ${
+          darkMode ? `navbar-dark bg-dark` : `navbar-light bg-light`
+        } `}
+        // style={{
+        //   backgroundColor: darkMode ? "black !important" : "white",
+        //   color: darkMode ? "white !important" : "black !important",
+        // }}
       >
         <div className="container-fluid mx-4">
           <NavLink className="navbar-brand" to="/">

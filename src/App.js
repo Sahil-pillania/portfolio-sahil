@@ -38,6 +38,8 @@ function App() {
       style={{
         backgroundColor: darkMode ? "#222" : "White",
         color: darkMode && "White",
+        display: "flex",
+        flexDirection: "column",
       }}
     >
       <Header />

@@ -92,7 +92,7 @@ Button:hover {
     flex-direction: column;
   }
   .c {
-    height: 320vh;
+    height: 260vh;
   }
   .c-title {
     font-size: 40px;
@@ -103,3 +103,9 @@ Button:hover {
     height: 27px;
   }
 }
+
+/* @media (max-width: 480px) {
+  .c {
+    height: 180px;
+  }
+} */

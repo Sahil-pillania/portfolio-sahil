@@ -21,12 +21,14 @@ const About = () => {
         <p className="a-sub">
           <ul id="skills" type="🥇">
             <span>Skills:</span>
-            <li>HTML</li>
-            <li>CSS</li>
             <li>JAVASCRIPT (ES)</li>
-            <li>REACT</li>
-            <li>NODE</li>
-            <li>PHP</li>
+            <li>MERN Stack</li>
+            <li>REACT js, NEXT js</li>
+            <li>HTML,CSS, SCSS</li>
+            <li> TailwindCSS</li>
+            <li>JAVA, OOPS</li>
+            <li>NODE js</li>
+            <li>PHP, mySql</li>
           </ul>
           <div className="links">
             <div>
@@ -34,19 +36,28 @@ const About = () => {
               <a
                 href="https://www.linkedin.com/in/sahil-pillania-297a84213/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Visit LinkedIn
               </a>
             </div>
             <div>
               <img src={twitter} alt="" title="Twitter Id" />
-              <a href="https://twitter.com/SaHiLPiLLaNiA48" target="_blank">
+              <a
+                href="https://twitter.com/SaHiLPiLLaNiA48"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Visit Twitter
               </a>
             </div>
             <div>
               <img src={leetcode} alt="" title="LeetCode Id" />
-              <a href="https://leetcode.com/Sahil_Pillania/" target="_blank">
+              <a
+                href="https://leetcode.com/Sahil_Pillania/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Visit Leetcode
               </a>
             </div>
@@ -60,6 +71,7 @@ const About = () => {
               <a
                 href="https://auth.geeksforgeeks.org/user/sahil_pillania"
                 target="_blank"
+                rel="noreferrer"
               >
                 Visit geeksForGeeks
               </a>

@@ -19,7 +19,7 @@ const Footer = () => {
       }}
     >
       <div className="f-auth">
-        Copyright &copy; Sahil Pillania 2021-{new Date().getFullYear()}
+        Copyright &copy; Sahil Pillania - {new Date().getFullYear()}
       </div>
       {/* <button onClick={topFunction} id="myBtn" title="Go to top">
         Top
